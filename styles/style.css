@@ -515,11 +515,10 @@ input:focus{
 .bottom-section{
   display: flex;
   flex-flow: row wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   margin-inline: 5%;
-}
-.dropdown{
-  flex-grow: 1;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 
@@ -527,7 +526,6 @@ input:focus{
   display: flex;
   flex-flow: row wrap;
   gap: 5px;
-  flex-grow: 1;
 }
 .copyright-section .copyright{
   color: var(--subtext-color);
@@ -538,4 +536,8 @@ input:focus{
 .social-links-section{
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 725px ){
+  
 }
